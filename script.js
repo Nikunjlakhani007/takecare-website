@@ -75,3 +75,24 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(el);
     });
 });
+
+// Ensure images become visible when they finish loading.
+// CSS defaults images to opacity:0 and relies on a 'loaded' class to fade them in.
+document.addEventListener('DOMContentLoaded', function() {
+    const images = document.querySelectorAll('img');
+    images.forEach(img => {
+        // If the image is already loaded (from cache), mark it immediately
+        if (img.complete && img.naturalWidth !== 0) {
+            img.classList.add('loaded');
+            return;
+        }
+
+        // Otherwise add listeners to add the class when load/error occurs
+        img.addEventListener('load', () => img.classList.add('loaded'));
+        img.addEventListener('error', () => {
+            // On error still add the class so the layout becomes visible
+            // (you can replace the src with a fallback image here if desired)
+            img.classList.add('loaded');
+        });
+    });
+});
