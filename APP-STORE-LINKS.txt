@@ -1,0 +1,111 @@
+# ✅ App Store/Play Store Links - Ready to Copy
+
+## 🚀 STEP 1: Enable GitHub Pages (Do This First!)
+
+**Go to:** https://github.com/Nikunjlakhani007/takecare-website/settings/pages
+
+1. Branch: Select `main`
+2. Folder: Select `/ (root)`
+3. Click **"Save"**
+4. Wait 30 seconds
+5. ✅ DONE!
+
+---
+
+## 📋 LEGAL PAGE LINKS FOR APP SUBMISSION
+
+### Privacy Policy
+```
+https://nikunjlakhani007.github.io/takecare-website/privacy-policy.html
+```
+
+### Terms of Service
+```
+https://nikunjlakhani007.github.io/takecare-website/terms-of-service.html
+```
+
+### EULA
+```
+https://nikunjlakhani007.github.io/takecare-website/eula.html
+```
+
+### Data Deletion Policy
+```
+https://nikunjlakhani007.github.io/takecare-website/data-deletion.html
+```
+
+### FAQ
+```
+https://nikunjlakhani007.github.io/takecare-website/faq.html
+```
+
+### Main Website
+```
+https://nikunjlakhani007.github.io/takecare-website/
+```
+
+### Support Email
+```
+support@takecare.app
+```
+
+---
+
+## 🍎 Apple App Store Connect
+
+**Where to paste:**
+
+1. **App Information Section:**
+   - Privacy Policy URL: `https://nikunjlakhani007.github.io/takecare-website/privacy-policy.html`
+   - Support URL: `https://nikunjlakhani007.github.io/takecare-website/`
+   - Marketing URL: `https://nikunjlakhani007.github.io/takecare-website/`
+
+2. **App Privacy Section:**
+   - Privacy Policy: `https://nikunjlakhani007.github.io/takecare-website/privacy-policy.html`
+
+---
+
+## 🤖 Google Play Console
+
+**Where to paste:**
+
+1. **Store Listing:**
+   - Website: `https://nikunjlakhani007.github.io/takecare-website/`
+   - Privacy Policy: `https://nikunjlakhani007.github.io/takecare-website/privacy-policy.html`
+
+2. **App Content → Data Safety:**
+   - Data Deletion: `https://nikunjlakhani007.github.io/takecare-website/data-deletion.html`
+
+---
+
+## ✅ Test Links (After Enabling GitHub Pages)
+
+Click each link to verify it works:
+
+- [ ] https://nikunjlakhani007.github.io/takecare-website/
+- [ ] https://nikunjlakhani007.github.io/takecare-website/privacy-policy.html
+- [ ] https://nikunjlakhani007.github.io/takecare-website/terms-of-service.html
+- [ ] https://nikunjlakhani007.github.io/takecare-website/eula.html
+- [ ] https://nikunjlakhani007.github.io/takecare-website/data-deletion.html
+- [ ] https://nikunjlakhani007.github.io/takecare-website/faq.html
+
+All links should load and show your legal pages! ✅
+
+---
+
+## 🎯 Quick Summary
+
+**What to do NOW:**
+1. Enable GitHub Pages (link above) - 30 seconds
+2. Wait 2 minutes for deployment
+3. Test all links above
+4. Copy/paste links to App Store Connect & Play Console
+5. Submit your app! 🎉
+
+**Cost:** FREE ✅  
+**Time:** 3 minutes  
+**Links:** HTTPS & Professional ✅
+
+---
+
+*Your legal pages will be live at GitHub Pages in 2 minutes!* 🚀
