@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequently Asked Questions - TakeCare</title>
+    <link rel="icon" type="image/png" href="./assets/favicon.png">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="./index.html" class="logo">
+                    <img src="./assets/logo.png" alt="TakeCare Logo" class="logo-img">
+                    <span class="logo-text">TakeCare</span>
+                </a>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="./index.html#features" class="nav-link">Features</a></li>
+                    <li><a href="./index.html#about" class="nav-link">About</a></li>
+                    <li><a href="./index.html#roadmap" class="nav-link">Roadmap</a></li>
+                    <li><a href="./index.html#download" class="nav-link">Download</a></li>
+                    <li><a href="./faq.html" class="nav-link active">FAQ</a></li>
+                </ul>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- FAQ Hero -->
+    <section class="faq-hero">
+        <div class="container">
+            <span class="section-label">Got Questions?</span>
+            <h1 class="hero-title">Frequently Asked Questions</h1>
+            <p class="hero-description">Everything you need to know about TakeCare</p>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3 class="faq-question">Is TakeCare really free?</h3>
+                    <p class="faq-answer">
+                        Yes! 100% free, forever. No hidden fees, no premium tiers, no ads. We believe 
+                        healthcare tools should be accessible to everyone.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">How secure is my health data?</h3>
+                    <p class="faq-answer">
+                        Extremely secure. We use AES-256 encryption (same as banks), TLS/SSL for data 
+                        transmission, and follow HIPAA privacy principles. Your data never leaves your 
+                        device unless you explicitly sync it.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">Can I manage medicines for my family?</h3>
+                    <p class="faq-answer">
+                        Absolutely! Create unlimited family member profiles and manage all medications 
+                        in one place. Perfect for parents, caregivers, and multi-generational households.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">What if my medicine isn't in the database?</h3>
+                    <p class="faq-answer">
+                        No problem! You can add custom medicines with full details. Our database has 
+                        10,000+ medications, but we know every case is unique.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">Does it work offline?</h3>
+                    <p class="faq-answer">
+                        Yes! All core features work offline. Your medicines, reminders, and dose logs 
+                        are stored locally and sync when you're back online.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">Can TakeCare replace my doctor?</h3>
+                    <p class="faq-answer">
+                        No. TakeCare is a medication tracking tool, not medical advice. Always consult 
+                        healthcare professionals for medical decisions.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">What platforms does TakeCare support?</h3>
+                    <p class="faq-answer">
+                        TakeCare is available on iOS (16.0+) and Android (8.0+). We're working on 
+                        tablet optimization and web version for future releases.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">How do reminders work?</h3>
+                    <p class="faq-answer">
+                        Set custom reminder times for each medicine. Get notifications at the right time, 
+                        snooze if needed, and log doses with one tap. Reminders work even when offline.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">Can I export my data?</h3>
+                    <p class="faq-answer">
+                        Yes! Go to Settings → Export My Data to download all your information in JSON 
+                        format. You own your data and can take it with you anytime.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">What happens if I miss a dose?</h3>
+                    <p class="faq-answer">
+                        TakeCare tracks missed doses and shows them in your adherence statistics. You 
+                        can log missed doses as "skipped" with optional notes about why.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">How does stock tracking work?</h3>
+                    <p class="faq-answer">
+                        Set initial stock levels and TakeCare automatically decrements when you log 
+                        doses. Get alerts when running low and track refill history.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">Can I see my medication history?</h3>
+                    <p class="faq-answer">
+                        Yes! View detailed history, adherence charts, streak tracking, and calendar 
+                        views. Export reports for doctor visits.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">Is my data backed up?</h3>
+                    <p class="faq-answer">
+                        If you enable cloud sync, your data is backed up to Supabase with AES-256 
+                        encryption. You can also create manual backups anytime.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">How do I delete my account?</h3>
+                    <p class="faq-answer">
+                        Go to Settings → Account Management → Delete Account. You can export your 
+                        data first. See our <a href="./data-deletion.html">Data Deletion Policy</a> for details.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">Can I use TakeCare for vitamins and supplements?</h3>
+                    <p class="faq-answer">
+                        Absolutely! TakeCare works for any medication, vitamin, supplement, or health 
+                        routine you want to track.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">How accurate is the medicine database?</h3>
+                    <p class="faq-answer">
+                        Our database includes 10,000+ medications with information from reliable medical 
+                        sources. However, always verify with your healthcare provider.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">Do you sell my data?</h3>
+                    <p class="faq-answer">
+                        Never. We never sell, rent, or share your personal health data with third parties. 
+                        Your privacy is sacred. Read our <a href="./privacy-policy.html">Privacy Policy</a>.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">Can I customize reminder sounds?</h3>
+                    <p class="faq-answer">
+                        Yes! Choose from different notification sounds or use your device's default. 
+                        Customize per medicine or use global settings.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">How do I contact support?</h3>
+                    <p class="faq-answer">
+                        Email us at <a href="mailto:support@takecare.app">support@takecare.app</a>. 
+                        We typically respond within 24-48 hours.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">Will there be new features?</h3>
+                    <p class="faq-answer">
+                        Yes! Check our <a href="./index.html#roadmap">Product Roadmap</a> for upcoming 
+                        features like AI drug interactions, pharmacy integration, and more.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Still Have Questions -->
+    <section class="support">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Still Have Questions?</h2>
+                <p class="section-description">We're here to help</p>
+            </div>
+            
+            <div class="support-grid">
+                <div class="support-card">
+                    <div class="support-icon">📧</div>
+                    <h3 class="support-title">Email Support</h3>
+                    <p class="support-description">Get help from our team</p>
+                    <a href="mailto:support@takecare.app" class="support-link">support@takecare.app</a>
+                </div>
+                
+                <div class="support-card">
+                    <div class="support-icon">📖</div>
+                    <h3 class="support-title">Documentation</h3>
+                    <p class="support-description">Browse our help articles</p>
+                    <a href="./index.html" class="support-link">Visit Help Center</a>
+                </div>
+                
+                <div class="support-card">
+                    <div class="support-icon">💬</div>
+                    <h3 class="support-title">Feedback</h3>
+                    <p class="support-description">Share your ideas</p>
+                    <a href="mailto:feedback@takecare.app" class="support-link">feedback@takecare.app</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="./assets/logo.png" alt="TakeCare Logo" class="footer-logo">
+                    <p class="footer-description">
+                        Enterprise-grade medication management for everyone. Free forever.
+                    </p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Product</h4>
+                        <a href="./index.html#features">Features</a>
+                        <a href="./index.html#roadmap">Roadmap</a>
+                        <a href="./index.html#download">Download</a>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <a href="./privacy-policy.html">Privacy Policy</a>
+                        <a href="./terms-of-service.html">Terms of Service</a>
+                        <a href="./eula.html">EULA</a>
+                        <a href="./data-deletion.html">Data Deletion</a>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Support</h4>
+                        <a href="./faq.html">FAQ</a>
+                        <a href="mailto:support@takecare.app">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 TakeCare. All rights reserved.</p>
+                <p class="medical-disclaimer">
+                    TakeCare is not a medical device. Always consult healthcare professionals for medical advice.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+
+    <style>
+        .faq-hero {
+            padding: 6rem 0 3rem;
+            background: linear-gradient(135deg, #FFF5F5 0%, #FFFFFF 50%, #F0F9FF 100%);
+            text-align: center;
+        }
+
+        .faq-hero .hero-title {
+            font-size: 3rem;
+            font-weight: 800;
+            margin: 1rem 0;
+        }
+
+        .faq-hero .hero-description {
+            font-size: 1.25rem;
+            color: var(--gray-600);
+        }
+
+        .nav-link.active {
+            color: var(--primary-red);
+            font-weight: 600;
+        }
+    </style>
+
+    <script src="./script.js"></script>
+    <script src="./animations.js"></script>
+    <script>
+        console.log('✅ FAQ page loaded with animations');
+    </script>
+</body>
+</html>
