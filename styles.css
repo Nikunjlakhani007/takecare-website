@@ -64,30 +64,6 @@ body {
     overflow-x: hidden;
 }
 
-/* Skip link for accessibility */
-.skip-link {
-    position: absolute;
-    left: -9999px;
-    top: auto;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-}
-
-.skip-link:focus {
-    position: fixed;
-    left: 1rem;
-    top: 1rem;
-    width: auto;
-    height: auto;
-    background: var(--primary-red);
-    color: var(--white);
-    padding: 0.5rem 1rem;
-    z-index: 9999;
-    border-radius: 6px;
-    text-decoration: none;
-}
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -549,6 +525,11 @@ body {
 
 .store-button {
     display: inline-block;
+    /* Force a consistent visual height for the badge container so different
+       SVG viewBox/padding won't make one badge appear taller. The image
+       will fill this height while preserving aspect ratio. */
+    height: 56px;
+    vertical-align: middle;
     transition: transform 0.3s ease;
 }
 
@@ -557,8 +538,11 @@ body {
 }
 
 .store-button img {
-    height: 60px;
-    width: 180px;
+    /* Make the image fill the container height and preserve aspect ratio */
+    height: 100%;
+    width: auto;
+    max-width: 220px;
+    display: block;
     object-fit: contain;
 }
 
@@ -1628,9 +1612,16 @@ body {
         font-size: 0.95rem;
     }
     
-    .store-button img {
+    /* Mobile: slightly smaller badge container, keep images filling the container */
+    .store-button {
         height: 50px;
-        width: 150px;
+    }
+
+    .store-button img {
+        height: 100%;
+        width: auto;
+        max-width: 150px;
+        display: block;
     }
     
     .vision-content {
